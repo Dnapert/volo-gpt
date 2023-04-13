@@ -13,8 +13,8 @@ export default function App({ Component, pageProps }: AppProps) {
   }
   return (<>
     <Button className='w-screen sticky h-16' onClick={toggleVisible}>Toggle Drawer</Button>
-
     {visible && <DrawerSideBar />}
+    <Component {...pageProps} />
 
   </>)
 }
