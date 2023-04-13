@@ -6,6 +6,7 @@ import { Button } from 'react-daisyui'
 import DrawerSideBar from '@/components/Drawer/Drawer'
 
 export default function App({ Component, pageProps }: AppProps) {
+
   const [visible, setVisible] = useState(false)
 
   const toggleVisible = () => {
